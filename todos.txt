@@ -1,0 +1,18 @@
+GROUPS
+
+- Add group 		   [OK]
+- Edit group		   [OK]
+- Delete group		   [OK]
+- Search group		   [OK]
+- Show groups contacts [OK]
+
+CONTACTS
+
+- Add contact		           [OK]
+- Add / Remove from favourites [OK]
+- Delete contact	           [OK]
+- Edit contact		           [OK]
+- Search contacts	           [OK]
+- Sort contacts		           [OK]
+
+CSS (responsive) [OK]
