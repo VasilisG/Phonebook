@@ -22,7 +22,7 @@ else {
         $result = mysqli_stmt_execute($statement);
 
         if($result){
-            $selectQuery = 'SELECT * FROM contact_group WHERE id<>1 AND id<>5 ORDER BY name ASC';
+            $selectQuery = 'SELECT * FROM contact_group WHERE id<>1 AND id<>2 ORDER BY name ASC';
             $selectResult = mysqli_query($connection, $selectQuery);
             if(!$selectResult){
                 echo json_encode(['status' => 'error', 'message' => 'Could not fetch groups from database.']);

@@ -4,7 +4,7 @@ include_once(__DIR__ . '/../db.php');
 
 $contactId = $_POST['id'];
 $action = $_POST['action'];
-$groupId = '5';
+$groupId = '2';
 
 if($connection){
     if($action == 'add'){

@@ -46,7 +46,7 @@ else {
             }
             mysqli_stmt_close($groupStatement);
 
-            $favouritesQuery = 'SELECT contact_id FROM contact_group_relation WHERE group_id=5';
+            $favouritesQuery = 'SELECT contact_id FROM contact_group_relation WHERE group_id=2';
             $favouritesResult = mysqli_query($connection, $favouritesQuery);
             $favourites = mysqli_fetch_all($favouritesResult);
             $favContacts = [];
